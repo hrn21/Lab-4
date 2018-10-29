@@ -1,8 +1,8 @@
 console.log("hello");
 
-const menuToggle= document.getElementById("menuToggle");
+const menuToggle= document.getElementById("menu-toggle");
+const menuNav= document.getElementById("menuNav");
 
-const toggleEs6= toggleMenu=> console.log("called toggleMenu");
+const toggleEs6 = () => console.log("called toggleMenu");
 menuToggle.addEventListener('click', toggleEs6);
 
-const menuNav= document.getElementById(menuNav);
